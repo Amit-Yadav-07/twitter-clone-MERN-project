@@ -1,0 +1,234 @@
+.home_parent {
+  width: 80%;
+  overflow-y: auto;
+}
+
+.cols_parent {
+  height: auto;
+  padding: 20px 0px;
+}
+
+.sidebar {
+  height: auto;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    height: auto;
+  }
+}
+
+.navbar {
+  width: 100%;
+}
+
+.profile_page_Parent {
+  height: 85vh;
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.Profile_Cover_section {
+  height: 205px;
+  display: flex;
+  padding-left: 20px;
+  align-items: end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .profile-top-level {
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-expand-xl {
+    box-shadow: 1px 1px 10px rgb(180, 175, 175);
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+  }
+}
+.Profile_Cover_parent {
+  height: 130px;
+  background-color: #1da1f2;
+}
+
+figure {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+figure img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.navbar-brand {
+  color: black;
+  display: none;
+  /* background-color: red; */
+}
+
+@media screen and (max-width: 2000px) {
+  .fa-twitter {
+    color: #1da1f2;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .fa-twitter {
+    display: block;
+  }
+
+  .navbar-brand {
+    display: block;
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+.icons_parent {
+  /* background-color: aqua;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  /* background-color: yellow; */
+  text-align: center;
+  top: 40px;
+}
+
+.left-bottom-profile {
+  position: fixed;
+  bottom: 5%;
+}
+
+@media screen and (max-width: 1200px) {
+  .icons_parent {
+    position: static;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .icons_parent {
+      flex-direction: column;
+    }
+  }
+
+  .left-bottom-profile {
+    position: static;
+    bottom: 0%;
+  }
+}
+
+.name_parent {
+  height: auto;
+  display: grid;
+  grid-auto-flow: row;
+  text-align: start;
+  width: auto;
+}
+
+.fa-calendar-days ~ strong {
+  font-size: 0.9rem;
+}
+
+.circle-profile {
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  bottom: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-profile img {
+  object-fit: contain;
+  height: 250%;
+  width: 250%;
+  mix-blend-mode: darken;
+}
+
+.links {
+  /* background-color: aqua; */
+  margin: 15px;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .links {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    padding: 5 0px;
+    font-size: 1rem;
+  }
+
+  .msg-img {
+    display: none;
+  }
+}
+
+.links:hover {
+  background-color: rgb(209, 213, 213);
+}
+
+.fa-user {
+  height: 100%;
+}
+
+.user_profile img {
+  height: 50px;
+}
+
+.fa-trash-can {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.fa-trash-can:hover {
+  background-color: rgb(212, 207, 207);
+  /* filter: drop-shadow(2px 2px 5px black); */
+}
+
+.msg-img {
+  height: 50px;
+}

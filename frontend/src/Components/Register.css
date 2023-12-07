@@ -1,0 +1,63 @@
+.login_parent,.register_parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.parent {
+  width: 70%;
+  /* background-color: blueviolet; */
+  height: 100%;
+  box-shadow: 3px 3px 10px black;
+  margin: 20px 0px;
+  
+}
+
+.input_parent {
+  width: 100%;
+}
+
+.form-control{
+  background-color: rgb(211, 206, 206);
+  border: 1px solid black;
+}
+
+.form-control:focus{
+  filter: 1px 1px 5px skyblue;
+  border: none;
+}
+.fa-message {
+  font-size: 160px;
+}
+
+.image-section {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 2000px) {
+    .form {
+      width: 80%;
+    }
+  }
+
+@media screen and (max-width: 995px) {
+  .form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .parent {
+    width: 90%;
+  }
+
+  .form {
+    width: 90%;
+  }
+}
